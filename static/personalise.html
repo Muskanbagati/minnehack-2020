@@ -1,0 +1,88 @@
+<html>
+
+<head>
+<title>Shop S-Mart</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="home.css" rel="stylesheet" type="text/css" />
+
+<script src="//use.edgefonts.net/averia-gruesa-libre.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Delius+Swash+Caps" rel="stylesheet">
+<script src="//use.edgefonts.net/lato.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Basic|Source+Sans+Pro:600" rel="stylesheet">
+<style type="text/css">
+a:link {
+	color: #ffd700;
+}
+a:visited {
+	color: #ffd700;
+}
+a:hover {
+	color: #FF9;
+}
+</style>
+
+
+</head>
+
+<body>
+  <div id = "header">
+  <h1>S-Mart</h1>
+  <p> Choose what matters the most to you </p>
+</div>
+
+	<div style="text-align: center;">
+    <a href="index.html" class="tabs" style="color:#1323B2">Home</a>
+		<a href="login.html" class="tabs" style="color:#1323B2">Log In</a>
+		<a href="personalise.html" class="tabs"style="color:#1323B2">Personalise</a>
+		<a href="activities.html" class="tabs"style="color:#1323B2">Feeling active</a>
+</div>
+<h2> What causes do you care for?</h2>
+<form action = "/add_user" method="get">
+  <input type="checkbox" name="cause1" value="vegan"> Vegan
+  <br>
+  <input type="checkbox" name="cause2" value="cruelty_free"> Cruelty Free
+  <br>
+  <input type="checkbox" name="cause3" value="recyclable"> Recyclable
+  <br>
+  <input type="checkbox" name="cause4" value="biodegradable"> Biodegradable
+  <br>
+  <input type="checkbox" name="cause5" value="local_source"> Locally Sourced
+  <br>
+  <input type="checkbox" name="cause6" value="fair_trade"> Fair Trade
+  <br>
+  <input type="checkbox" name="cause7" value="package_less"> Package Free
+  <br> <br>
+  <h3> Contact Information : </h3>
+
+  <label for="first_name">First Name : </label>
+  <input type="text" name="first_name">
+ <emsp> <emsp>
+  <label for="last_name">Last Name : </label>
+  <input type="text" name="last_name">
+<br><br>
+<label for="gender">Gender : </label>
+<input type="text" name="gender">
+<br><br>
+
+  <label for="street_address">Street Address : </label>
+  <input type="text" name="street_address" >
+ <br><br>
+	 <label for="city">City : </label>
+   <input type="text" name="city" >
+  <emsp><emsp>
+  <label for="state">State : </label>
+  <input type="text" name="state">
+<br><br>
+  <label for="zipcode">Zipcode : </label>
+  <input type="text" name="zipcode">
+<br><br><br>
+  <input type="submit" name="" value="Submit">
+</form>
+
+
+
+
+</body>
+</html>
